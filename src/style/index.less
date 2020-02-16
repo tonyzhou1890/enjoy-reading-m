@@ -1,0 +1,37 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  &:active, &:hover {
+    color: inherit;
+  }
+}
+
+.content-inner {
+  width: 100%;
+}
+
+.no-wrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+// 列表页标题
+.list-title {
+  font-size: 36px
+}
+
+// 列表内容
+.list-content-wrapper {
+  padding: 20px 10px 0 10px;
+}
